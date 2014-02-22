@@ -1,2 +1,5 @@
-puts "Hello"
-#poop
+require 'sinatra'
+
+get '/' do 
+	"Hello World"
+end
